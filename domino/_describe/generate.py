@@ -94,7 +94,7 @@ def generate_candidate_descriptions(
 
 def _get_wiki_words(top_k: int = 1e5, eng_only: bool = False):
     df = pd.read_csv(
-        "https://github.com/IlyaSemenov/wikipedia-word-frequency/raw/master/results/enwiki-20190320-words-frequency.txt",
+        "https://raw.githubusercontent.com/IlyaSemenov/wikipedia-word-frequency/master/results/enwiki-2022-08-29.txt",
         delimiter=" ",
         names=["word", "frequency"],
     )
