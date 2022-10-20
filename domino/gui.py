@@ -170,7 +170,7 @@ def explore(
         columns: List[str],
         slice_threshold: float,
     ):
-        mk.config.DisplayOptions.max_rows = page_size
+        mk.config.DisplayConfig.max_rows = page_size
         dp_output.clear_output(wait=False)
         num_examples_in_slice = np.sum(slices[:, slice_idx] > slice_threshold)
 
