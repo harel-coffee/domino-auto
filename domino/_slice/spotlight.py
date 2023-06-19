@@ -29,11 +29,8 @@ class SpotlightSlicer(Slicer):
     def __init__(
         self,
         n_slices: int = 5,
-        spotlight_size: int = 0.02,  # recommended from paper
-        n_steps: int = 1000,
-        learning_rate: float = 1e-3,  # default from the implementation
-        device: torch.device = torch.device("cpu"),
-        pbar: bool = False,
+        n_mixture_components: int = ,
+        weight: float = 0.025 , # weight hyperparameter
     ):
         super().__init__(n_slices=n_slices)
 
