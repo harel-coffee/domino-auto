@@ -170,7 +170,7 @@ class PlaneSpotSlicer(Slicer):
     
     def _fit_gmm(
         self, reduced_embeddings: np.ndarray, pred_prbs: np.ndarray
-    )
+    ):
         # Normalize the embeddings to have range [0, 1]
         X = np.copy(embedding)
         X -= np.min(X, axis = 0)
