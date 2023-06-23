@@ -34,6 +34,10 @@ class PlaneSpotSlicer(Slicer):
         Interpretable dimensionality reduction of single cell transcriptome 
         data with deep generative models. 
         Nature communications, 9(1):1–13. (2018)
+        
+    PREREQUISITES:  Assumes that scvis is installed in the conda environment
+        at scvis_conda_env, using the instructions here: 
+        https://github.com/shahcompbio/scvis
     """
 
     def __init__(
