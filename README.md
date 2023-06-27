@@ -57,13 +57,14 @@ To see a full list of implemented methods, see the [docs](https://domino-slice.r
 - 💻 [GitHub](https://github.com/HazyResearch/domino)
 - 📘 [Docs](https://domino-slice.readthedocs.io/en/latest/)
 
-Papers:
-- 📄 [ICLR 2022 Paper](https://arxiv.org/abs/2203.14960)
+Useful References:
+- 📄 [Domino (ICLR 22)](https://arxiv.org/abs/2203.14960)
+- 📄 [User study evaluating slice discovery methods (arXiv)](https://arxiv.org/abs/2306.08167)
+- 📄 [PlaneSpot (TMLR 22)](https://arxiv.org/abs/2207.04104)
+- 📄 [Spotlight (FAccT 22)](https://arxiv.org/abs/2107.00758)
 
 Blogposts:
 - 🌍 [BlogPost](https://hazyresearch.stanford.edu/blog/2022-04-02-domino)
-
-
 
 ## ✉️ About
 Reach out to Sabri Eyuboglu (eyuboglu [at] stanford [dot] edu) if you would like to get involved or contribute!
